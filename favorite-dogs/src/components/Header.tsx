@@ -2,7 +2,7 @@ import { Link, useMatch } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="flex justify-left space-x-4 p-2 shadow-md">
+    <nav className="flex justify-left space-x-4 p-2 shadow-md sticky top-0 z-50">
       {[
         ["Home", "/"],
         ["Favorites", "/favorites"],
